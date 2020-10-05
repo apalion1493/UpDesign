@@ -1,0 +1,35 @@
+.section-third {
+  padding-top: 53px;
+  padding-bottom: 52px;
+}
+
+.section-third__item-img {
+  width: 68px;
+  min-width: 68px;
+  margin-right: 32px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #F0F0F0;
+}
+
+.section-third__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section-third__btn {
+  position: absolute;
+  bottom: 52px;
+}
+
+.section-third__wrapper {
+  padding-top: 30px;
+}

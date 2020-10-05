@@ -1,0 +1,37 @@
+//LIBRARY
+@import "library.styles/bootstrap/bootstrap";
+
+//MIXINS
+@import "common.blocks/utils/mixins";
+
+//VARIABLE
+@import "common.blocks/utils/variable";
+
+//TEXT
+@import "common.blocks/utils/text";
+
+//FONTS
+@import "common.blocks/utils/fonts";
+
+//SECTIONS
+@import "common.blocks/sections/header/header";
+@import "common.blocks/sections/section-first";
+@import "common.blocks/sections/section-second";
+@import "common.blocks/sections/section-third";
+@import "common.blocks/sections/section-fourth";
+@import "common.blocks/sections/section-fifth";
+@import "common.blocks/sections/section-sixth";
+@import "common.blocks/sections/section-seventh";
+@import "common.blocks/sections/section-eighth";
+@import "common.blocks/sections/section-ninth";
+@import "common.blocks/sections/section-tenth";
+
+//BLOCKS
+@import "common.blocks/blocks/iocns";
+@import "common.blocks/blocks/logo";
+@import "common.blocks/blocks/media";
+
+//main styles
+@import "common.blocks/utils/common";
+
+

@@ -1,0 +1,21 @@
+.section-sixth {
+  padding-top: 73px;
+  padding-bottom: 46px;
+}
+
+.section-sixth__text {
+  font-weight: 500;
+  font-size: rem(20);
+  line-height: 150.19%;
+  color: #6A6A6A;
+}
+
+.section-sixth__colorText {
+  font-weight: bold;
+  font-size: rem(20);
+  line-height: rem(32);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: $primary;
+  display: block;
+}
