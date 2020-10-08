@@ -1,7 +1,7 @@
 .section-fifth {
   padding-top: 54px;
   padding-bottom: 40px;
-  background: url("../img/section-fifth-bg.png") no-repeat center;
+  background: #F9F9F9 url("../img/section-fifth-bg.png") no-repeat center;
   background-size: cover;
 }
 
@@ -15,8 +15,14 @@
   margin-bottom: 25px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% auto;
   overflow: hidden;
+  transition: background-size 1s ease-in;
+
+  &:hover {
+    background-size: 120% auto;
+    transition: background-size 2s ease-in;
+  }
 }
 
 .section-fifth__type-circle {

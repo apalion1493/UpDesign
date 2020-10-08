@@ -1,0 +1,130 @@
+.main-carousel {
+  
+  .carousel-caption {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    max-width: 380px;
+    height: 394px;
+    right: 30px;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 37px 32px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-indicators {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-bottom: 0;
+    position: absolute;
+
+    li {
+      width: 8px;
+      height: 8px;
+      background: #1F1E2C;
+      border-radius: 50%;
+      border: none;
+      opacity: 1;
+    }
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 1px solid #CFCFCF;
+    border-radius: 50%;
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-item {
+
+    img {
+      max-width: 978px;
+      position: relative;
+      z-index: 1;
+      margin-left: 7px;
+    }
+  }
+
+  .carousel-control-prev-icon {
+    background: url("../img/arrow-slider.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 8px;
+  }
+
+  .carousel-control-next-icon {
+    background: url("../img/arrow-slider.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 30px;
+    height: 8px;
+    transform: rotate(180deg);
+  }
+}
+
+.main-carousel__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1F1E2C;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.main-carousel__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.main-carousel__control {
+  max-width: 230px;
+  height: 52px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.main-carousel__wrapper-img {
+  position: relative;
+  max-width: 978px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    background: #DB1F7B;
+    width: 56px;
+    height: 179px;
+    bottom: 35px;
+    left: -8px;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    background: #00A1E3;
+    width: 56px;
+    height: 295px;
+    top: 21px;
+    right: -21px;
+  }
+}

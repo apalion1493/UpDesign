@@ -27,9 +27,15 @@
 
 .section-third__btn {
   position: absolute;
-  bottom: 52px;
+  bottom: 70px;
+  left: 47%;
+  transform: translateX(-50%);
 }
 
 .section-third__wrapper {
   padding-top: 30px;
+}
+
+.section-third__img {
+  transform: translateX(-20px);
 }

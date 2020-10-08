@@ -1,0 +1,98 @@
+.accordion-style {
+  .btn-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #333333;
+    text-align: left;
+    text-decoration: none;
+    height: auto;
+    padding: 11px 0;
+    position: relative;
+
+    &:not(.collapsed) {
+      &:before {
+        background: #FFFFFF url(../img/icon-minus.svg) no-repeat center;
+        background-size: 12px 2px;
+      }
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #FFFFFF url(../img/icon-plus.svg) no-repeat center;
+      background-size: 12px 12px;
+      border: 1px solid #CFCFCF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 10px;
+      left: -45px;
+    }
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .card-header {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: initial;
+    border: none;
+  }
+
+  .card {
+    border-color: #CFCFCF;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    background: initial;
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+
+  .card-body {
+    padding-top: 2px;
+    padding-bottom: 15px;
+  }
+
+  .card-header {
+    padding-left: 70px;
+  }
+
+  .accordion-style__text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #6A6A6A;
+  }
+
+  .accordion-style__list {
+    padding-left: 32px;
+  }
+
+  .accordion-style__item {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 7px;
+      height: 2px;
+      background: $primary;
+      border-radius: 20px;
+      top: 12px;
+      left: -21px;
+    }
+
+    .accordion-style__text {
+      line-height: 26px;
+    }
+  }
+}

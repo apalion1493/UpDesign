@@ -49,6 +49,10 @@ main {
   background: $circle-bg-7;
 }
 
+.circle-color-8 {
+  background: $white;
+}
+
 
 .input-style {
   background: #E7E6E6;
@@ -73,6 +77,41 @@ main {
   min-height: 117px;
   margin-bottom: 16px;
   resize: none;
+}
+
+.main-btn {
+  border-radius: 55px;
+  background: linear-gradient(269.01deg, #D41F7E 5.21%, #DB332E 85.36%);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  min-height: 55px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.main-outline-btn {
+  border: 4px solid rgba(255, 255, 255, 0.76);
+}
+
+.right-line {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: calc(100% - 20px);
+    background: #E6E6E6;
+    top: 10px;
+    left: -15px;
+  }
 }
 
 @media (min-width: 1200px) {

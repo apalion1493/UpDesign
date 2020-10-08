@@ -27,6 +27,7 @@ h3, .h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: $font-color-2;
+  display: block;
 }
 
 .section-h3-title {
@@ -45,5 +46,25 @@ h3, .h3 {
   .main-text {
     font-size: rem(18);
     line-height: rem(24);
+  }
+
+  h1, .h1 {
+    font-size: rem(28);
+    line-height: rem(34);
+  }
+
+  .main-text {
+    font-size: rem(14);
+    line-height: rem(20);
+  }
+
+  .section-h2-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .section-h3-title {
+    font-size: 16px;
+    line-height: 32px;
   }
 }

@@ -15,6 +15,7 @@
 
 //SECTIONS
 @import "common.blocks/sections/header/header";
+@import "common.blocks/sections/footer/footer";
 @import "common.blocks/sections/section-first";
 @import "common.blocks/sections/section-second";
 @import "common.blocks/sections/section-third";
@@ -25,11 +26,19 @@
 @import "common.blocks/sections/section-eighth";
 @import "common.blocks/sections/section-ninth";
 @import "common.blocks/sections/section-tenth";
+@import "common.blocks/sections/section-eleventh";
+@import "common.blocks/sections/section-twelfth";
+@import "common.blocks/sections/section-thirteenth";
+@import "common.blocks/sections/section-fourteenth";
 
 //BLOCKS
 @import "common.blocks/blocks/iocns";
 @import "common.blocks/blocks/logo";
 @import "common.blocks/blocks/media";
+@import "common.blocks/blocks/card";
+@import "common.blocks/blocks/accordion";
+@import "common.blocks/blocks/slider-container";
+@import "common.blocks/blocks/carousel";
 
 //main styles
 @import "common.blocks/utils/common";

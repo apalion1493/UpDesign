@@ -166,3 +166,19 @@
   padding-right: 11px;
   width: 100%;
 }
+
+@media (max-width: 767.98px) {
+  .section-seventh__block .section-seventh__block-title {
+    font-size: 14px;
+  }
+
+  .section-seventh__wrapper-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .section-seventh__wrapper-title-color {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

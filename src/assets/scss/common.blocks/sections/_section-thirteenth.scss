@@ -1,0 +1,82 @@
+.section-thirteenth {
+  padding-top: 46px;
+  padding-bottom: 50px;
+}
+
+.section-thirteenth__title {
+  margin-bottom: 33px;
+}
+
+.section-thirteenth__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-thirteenth__listAudio {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section-thirteenth__listAudio-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 28px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section-thirteenth__listAudio-item-author {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.section-thirteenth__listAudio-item-author-img {
+  max-width: 43px;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 14px;
+}
+
+.section-thirteenth__listAudio-item-author-info {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-weight: 600;
+    font-size: rem(14);
+    line-height: rem(17);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $font-color-8;
+    margin-bottom: 0;
+  }
+
+  time {
+    font-weight: 600;
+    font-size: rem(12);
+    line-height: rem(15);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $primary;
+  }
+}
+
+.section-thirteenth__listAudio-item-audio {
+  margin-left: auto;
+}
+
+.section-thirteenth__video {
+  margin-bottom: 66px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 366px;
+
+  iframe {
+    width: 100%;
+    height: 366px;
+  }
+}

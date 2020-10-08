@@ -110,6 +110,11 @@
   display: block;
 }
 
+.money-icon.pigBig {
+  width: 64px;
+  height: 64px;
+}
+
 .like-icon {
   background: url("../img/like-icon.svg") no-repeat center;
   background-size: 100% auto;
@@ -259,5 +264,37 @@
   background-size: 100% auto;
   width: 54px;
   height: 54px;
+  display: block;
+}
+
+.email-svg-icon {
+  background: url("../img/email-svg-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 23px;
+  height: 16px;
+  display: block;
+}
+
+.call-svg-icon {
+  background: url("../img/call-svg-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 19px;
+  height: 19px;
+  display: block;
+}
+
+.inst-svg-icon {
+  background: url("../img/inst-svg-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.logo-webdelo {
+  background: url("../img/logo-webdelo.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 25px;
+  height: 23px;
   display: block;
 }
