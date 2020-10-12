@@ -75,3 +75,43 @@
     }
   }
 }
+
+@media (max-width: 1199.98px) {
+  .slider-container .slick-prev {
+    left: -30px;
+  }
+
+  .slider-container .slick-next {
+    right: -30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .slider-container .slick-prev {
+    left: 0;
+  }
+
+  .slider-container .slick-next {
+    right: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .slider-container .slick-arrow {
+    top: 100%;
+  }
+
+  .slider-container .slick-prev {
+    left: auto;
+    right: 60%;
+  }
+
+  .slider-container .slick-next {
+    right: auto;
+    left: 60%;
+  }
+
+  .slider-container .slider-container__item {
+    padding-bottom: 50px;
+  }
+}

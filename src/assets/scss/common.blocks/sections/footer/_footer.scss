@@ -50,12 +50,16 @@
   font-size: 14px;
   line-height: 17px;
   color: #B7B7B7;
-  display: block;
 
   &:hover {
     color: #B7B7B7;
     text-decoration: none;
   }
+}
+
+.footer__text-webdelo {
+  display: inline-flex;
+  align-items: center;
 }
 
 .footer__container-wrapper {
@@ -91,12 +95,135 @@
   margin-bottom: 82px;
 }
 
-.footer__main-container {
-
-}
-
 .footer__img {
   position: absolute;
   left: 0;
   bottom: -10px;
+}
+
+.footer__img-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.footer__img-mob {
+  display: none;
+}
+
+.footer__container-list {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1199.98px) {
+  .footer__text-webdelo {
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+
+    a {
+      margin-top: 8px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .footer__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer__img-wrapper {
+    height: 270px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    .footer__img {
+      left: 50%;
+      transform: translateX(-50%);
+      display: none;
+    }
+  }
+
+  .footer__img-mob {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center bottom;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+  }
+
+  .footer__wrapper {
+    margin-bottom: 38px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__title,
+  .footer__text {
+    text-align: center;
+  }
+
+  .footer__title {
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    line-height: 150.19%;
+    margin-bottom: 21px;
+  }
+
+  .footer__container {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .footer__logo {
+    justify-content: center;
+    margin-bottom: 26px;
+  }
+
+  .footer__container-wrapper {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 36px;
+  }
+
+  .footer__container-list {
+    margin-top: 11px;
+    justify-content: center;
+
+    a:first-child {
+      margin-left: 0 !important;
+    }
+  }
+
+  .logo-webdelo {
+    display: none !important;
+  }
+
+  .footer__text-webdelo {
+    display: inline;
+    text-align: center;
+    margin-left: 0 !important;
+    max-width: 178px;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+  .footer__img-wrapper {
+    height: 200px;
+    margin-left: -24px;
+    margin-right: -24px;
+    margin-bottom: 0;
+  }
 }

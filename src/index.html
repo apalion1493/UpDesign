@@ -74,7 +74,7 @@
         <section class="section section-first">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6 order-1 order-lg-0">
                         <h1 class="h1 section-first__title">Прорыв в мире дизайна</h1>
                         <span class="section-first__subTitle1">Проект от 1990₽</span>
                         <span class="section-first__subTitle2">теперь реальность</span>
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 order-0 order-lg-1">
                         <div class="section-first__wrapper">
                             <img src="assets/img/pizza-img-group.png" alt="">
                             <div class="section-first__wrapper-circle">
@@ -139,10 +139,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="h2 section-h2-title mb-5">Мы объединяем заказчика и <br> дизайн-проект его мечты. </h2>
+                        <h2 class="h2 section-h2-title mb-md-5 mb-4">Мы объединяем заказчика и <br> дизайн-проект его мечты. </h2>
                     </div>
-                    <div class="col-7">
-                        <div>
+                    <div class="col-lg-7">
+                        <div class="section-second__wrapperList">
                             <p class="main-text">На платформе «Дизайн за час» мы создаём функциональные и экономичные дизайн-проекты интерьеров по индивидуальным параметрам. Мы предлагаем вам персональные варианты с учетом особенностей помещения и ваших пожеланий к стилю.</p>
                             <ul class="section-second__list">
                                 <li class="section-second__item">
@@ -152,9 +152,9 @@
                                         </div>
                                         <div class="media-body">
                                             <span class="media__title">Пройдите тест</span>
-                                            <div class="d-flex">
+                                            <div class="section-second__item-block">
                                                 <p class="main-text">Ответьте на простые короткие вопросы и расскажите, о какой квартире вы мечтаете.</p>
-                                                <button class="btn main-btn">Пройти тест</button>
+                                                <button class="btn main-btn section-second__btn">Пройти тест</button>
                                             </div>
                                         </div>
                                     </div>
@@ -195,17 +195,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-5">
-                        <div>
-                            <div class="d-flex">
-                                <div class="position-relative">
+                    <div class="col-lg-5">
+                        <div class="section-second__imgContainer">
+                            <div class="section-second__imgContainer-wrapper1">
+                                <div class="position-relative section-second__imgContainer-wrapper2">
                                     <img class="ml-auto" src="assets/img/iPhoneX-img.png" alt="">
-                                    <div class="position-absolute">
+                                    <div class="section-second__imgContainer-content">
                                         <img src="assets/img/iPhoneX-content.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <button class="btn btn-light mx-auto section-second__btnWhite" data-toggle="modal" data-target="#modalVideo">Посмотреть видео</button>
                     </div>
                 </div>
             </div>
@@ -214,15 +215,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="h2 section-h2-title mb-5">Что вы получите на выходе</h2>
+                        <h2 class="h2 section-h2-title mb-5 section-third__title">Что вы получите на выходе</h2>
                     </div>
-                    <div class="col-6">
-                        <div class="position-relative">
+                    <div class="col-lg-6">
+                        <div class="section-third__wrapperImg">
                             <img class="section-third__img" src="assets/img/section-third-img.png" alt="">
                             <button class="btn main-btn main-outline-btn section-third__btn">Скачать дизайн-проект</button>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="section-third__wrapper">
                             <p class="main-text mb-4">Скачайте пример готового дизайн-проекта, чтобы убедиться в его ценности.</p>
                             <p class="main-text mb-4 pb-2">Разработаем и предоставим подробный индивидуальный дизайн-проект, который позволит вам:</p>
@@ -261,7 +262,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="h2 section-h2-title mb-5">Красота, эргономичность, стиль на <br> основании наших проектов</h2>
+                        <h2 class="h2 section-fourth__title section-h2-title mb-5">Красота, эргономичность, стиль на <br> основании наших проектов</h2>
                     </div>
                     <div class="col-12">
                         <div id="carouselExampleCaptions" class="carousel slide carousel-fade main-carousel" data-ride="carousel">
@@ -270,7 +271,7 @@
                                     <div class="main-carousel__wrapper-img">
                                         <img src="assets/img/img-slider.png" class="d-block" alt="...">
                                     </div>
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-block">
                                         <h5 class="main-carousel__title">Квартира в москва сити</h5>
                                         <p class="main-carousel__text">Вы можете получить подобный проект.</p>
                                         <div class="main-carousel__control">
@@ -289,14 +290,14 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
-
+                                        <button class="btn main-btn carousel-caption__btn">Пройдите тест</button>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="main-carousel__wrapper-img">
                                         <img src="assets/img/img-slider.png" class="d-block" alt="...">
                                     </div>
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-block">
                                         <h5 class="main-carousel__title">Квартира в москва сити</h5>
                                         <p class="main-carousel__text">Вы можете получить подобный проект.</p>
 
@@ -316,13 +317,14 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
+                                        <button class="btn main-btn carousel-caption__btn">Пройдите тест</button>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="main-carousel__wrapper-img">
                                         <img src="assets/img/img-slider.png" class="d-block" alt="...">
                                     </div>
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-block">
                                         <h5 class="main-carousel__title">Квартира в москва сити</h5>
                                         <p class="main-carousel__text">Вы можете получить подобный проект.</p>
 
@@ -342,6 +344,7 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
+                                        <button class="btn main-btn carousel-caption__btn">Пройдите тест</button>
                                     </div>
                                 </div>
                             </div>
@@ -354,9 +357,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="h2 section-h2-title mb-5">Ответьте на вопросы и получите идеальный дизайн-проект для вашего помещения</h2>
+                        <h2 class="h2 section-h2-title mb-4 mb-md-5">Ответьте на вопросы и получите идеальный дизайн-проект для вашего помещения</h2>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v5">
                             <div class="media-img-container circle-color-8">
                                 <i class="clock-icon"></i>
@@ -367,7 +370,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v5">
                             <div class="media-img-container circle-color-8">
                                 <i class="money-icon pigBig"></i>
@@ -380,7 +383,7 @@
                     <div class="col-12">
                         <h3 class="h3 section-h3-title mb-5">ВЫБЕРЕТЕ ТИП ПОМЕЩЕНИЯ</h3>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-6 col-6 col-md-12">
                         <div class="section-fifth__type" style="background-image: url(assets/img/section-fifth__elem-img-1.png)">
                             <div class="section-fifth__type-circle ml-auto">
                                 <div class="section-fifth__type-circleCenter" style="border-color: #D5207E;">
@@ -389,7 +392,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-6 col-6 col-md-12">
                         <div class="section-fifth__type" style="background-image: url(assets/img/section-fifth__elem-img-3.png)">
                             <div class="section-fifth__type-circle mr-auto">
                                 <div class="section-fifth__type-circleCenter" style="border-color: #D5207E;">
@@ -398,7 +401,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-6 col-6 col-md-12">
                         <div class="section-fifth__type" style="background-image: url(assets/img/section-fifth__elem-img-2.png)">
                             <div class="section-fifth__type-circle ml-auto">
                                 <div class="section-fifth__type-circleCenter" style="border-color: #F09720;">
@@ -407,7 +410,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-sm-6 col-6 col-md-12">
                         <div class="section-fifth__type" style="background-image: url(assets/img/section-fifth__elem-img-4.png)">
                             <div class="section-fifth__type-circle mr-auto">
                                 <div class="section-fifth__type-circleCenter" style="border-color: #00A1E3;">
@@ -422,21 +425,21 @@
         <section class="section section-sixth">
             <div class="container">
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-8">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
                         <p class="section-sixth__text mb-4">Мы выполняем проекты быстро и по выгодной цене. Наши дизайнеры разработали уже более 1000+  интерьеров для квартир и домов самых разных площадей и планировок. У нас огромная база идей, готовых к использованию. Мы хотим сделать красивые интерьеры доступнее, поэтому заявляем самую привлекательную стоимость услуги дизайн онлайн.</p>
                         <span class="section-sixth__colorText mb-4">У вас студия/1 комнатная/2 комнатная квартира, но вы не нашли свою планировку?</span>
                         <p class="section-sixth__text mb-4 pb-3">Нажмите кнопку «нет моей планировки» пройдите опросник и мы разработаем проект с нуля в срок от 3 до 7 дней от 1990₽ за проект!</p>
-                        <button class="btn btn-primary mx-auto">Нет моей планировки</button>
+                        <button class="btn main-btn mx-auto">Нет моей планировки</button>
                     </div>
-                    <div class="col-2"></div>
+                    <div class="col-lg-2"></div>
                 </div>
             </div>
         </section>
         <section class="section section-seventh">
             <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="section-seventh__block">
                             <div class="section-seventh__block-img section-seventh__block-img-pos1">
                                 <img src="assets/img/section-seventh-img-1.png" alt="">
@@ -444,7 +447,7 @@
                             <span class="section-seventh__block-title arrow-right">У вас  3к или 4к квартира ?</span>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="section-seventh__block">
                             <div class="section-seventh__block-img section-seventh__block-img-pos2">
                                 <img src="assets/img/section-seventh-img-2.png" alt="">
@@ -452,7 +455,7 @@
                             <span class="section-seventh__block-title arrow-center">У вас дом?</span>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="section-seventh__block">
                             <div class="section-seventh__block-img section-seventh__block-img-pos3">
                                 <img src="assets/img/section-seventh-img-3.png" alt="">
@@ -469,11 +472,11 @@
                                     <div class="section-seventh__form-block">
                                         <input class="input-style mb-3" type="text" placeholder="Ваше имя">
                                         <input class="input-style mb-3" type="text" placeholder="Номер телефона">
-                                        <button class="btn btn-outline-primary">Подгрузить планировку</button>
+                                        <button class="btn btn-outline-primary d-none d-md-flex">Подгрузить планировку</button>
                                     </div>
                                     <div class="section-seventh__form-block">
-                                        <textarea class="input-style textarea-style" name="" id="" cols="30" rows="4" placeholder="Комментарий"></textarea>
-                                        <button class="btn btn-primary">Заказать проект</button>
+                                        <textarea class="input-style textarea-style d-none d-md-block" name="" id="" cols="30" rows="4" placeholder="Комментарий"></textarea>
+                                        <button class="btn main-btn section-seventh__form-btn">Заказать проект</button>
                                     </div>
                                 </form>
                             </div>
@@ -488,7 +491,7 @@
                     <div class="col-12">
                         <h2 class="h2 section-h2-title section-eighth__title">Преимущества очевидны! </h2>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-3">
                                 <i class="time-icon"></i>
@@ -499,7 +502,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-1">
                                 <i class="economy-forecast-icon"></i>
@@ -510,7 +513,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-2">
                                 <i class="price-tag-icon"></i>
@@ -521,7 +524,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-4">
                                 <i class="architecture-icon"></i>
@@ -532,7 +535,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-5">
                                 <i class="puzzle-icon"></i>
@@ -543,7 +546,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-6">
                                 <i class="laptop-icon"></i>
@@ -554,7 +557,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-7">
                                 <i class="living-room-icon"></i>
@@ -565,7 +568,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-3">
                                 <i class="chip-icon"></i>
@@ -576,7 +579,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-1">
                                 <i class="change-icon"></i>
@@ -587,7 +590,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="media media_v3">
                             <div class="media-img-container circle-color-2">
                                 <i class="blueprint-icon"></i>
@@ -607,13 +610,13 @@
                     <div class="col-12">
                         <h2 class="h2 section-h2-title section-ninth__title">Предлагаем свой 17-летний опыт <br> для создания вашего комфорта</h2>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="section-ninth__video">
                             <img src="assets/img/section-ninth-img.png" alt="">
 <!--                            <iframe width="560" src="https://www.youtube.com/embed/q1u0hzLuDCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="section-ninth__wrapper">
                             <p class="main-text mb-0">Наша команда работает в строительстве и дизайне с 2003 года. За прошедшее время мы отработали десятки планировок и создали проекты в 34 стилях, поэтому быстро решаем задачи клиентов любой сложности. Ежедневно делаем стильный дизайн доступным многим, благодаря выгодной стоимости. </p>
                             <br>
@@ -631,7 +634,7 @@
                         <h2 class="h2 section-tenth__title section-h2-title">Дизайн за час - для тех, кто хочет экономить на скорости и на цене, но не на качестве!</h2>
                         <p class="section-tenth__subTitle main-text">Нашими клиентами становятся те, кто хочет получить стильный и функциональный дизайн-проект для своей квартиры быстро и выгодно. Работаем по всей России. Будем полезны тем, кто:</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="media media_v4">
                             <div class="media-img-container circle-color-2">
                                 <i class="conversation-icon"></i>
@@ -641,7 +644,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="media media_v4">
                             <div class="media-img-container circle-color-1">
                                 <i class="dizlike-icon"></i>
@@ -651,7 +654,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="media media_v4">
                             <div class="media-img-container circle-color-4">
                                 <i class="gift-box-icon"></i>
@@ -661,7 +664,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 ml-auto">
+                    <div class="col-xl-4 col-md-6 ml-auto">
                         <div class="media media_v4">
                             <div class="media-img-container circle-color-6">
                                 <i class="building-icon"></i>
@@ -671,7 +674,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 mr-auto">
+                    <div class="col-xl-4 col-md-6 mr-auto">
                         <div class="media media_v4">
                             <div class="media-img-container circle-color-3">
                                 <i class="double-bed-icon"></i>
@@ -703,10 +706,11 @@
                                 </li>
                             </ul>
                             <p class="section-eleventh__subTitle">В дизайн-проект входит все, что необходимо для быстрого и выгодного ремонта:</p>
+                            <p class="section-eleventh__subTitle-mob">Что входит:</p>
                             <div class="tab-content" id="pills-tabContent">
                                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                                     <div class="row">
-                                        <div class="col-4">
+                                        <div class="col-md-6 col-xl-4">
                                             <div class="card card_step">
                                                 <div class="card-img-container circle-color-2">
                                                     <img class="card-img-top" src="assets/img/schema-1.png" alt="">
@@ -720,7 +724,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-6 col-xl-4">
                                             <div class="card card_step">
                                                 <div class="card-img-container circle-color-1">
                                                     <img class="card-img-top" src="assets/img/schema-2.png" alt="">
@@ -734,7 +738,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-6 col-xl-4">
                                             <div class="card card_step">
                                                 <div class="card-img-container circle-color-3">
                                                     <img class="card-img-top" src="assets/img/schema-3.png" alt="">
@@ -748,7 +752,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-6 col-xl-4">
                                             <div class="card card_step">
                                                 <div class="card-img-container circle-color-6">
                                                     <img class="card-img-top" src="assets/img/schema-4.png" alt="">
@@ -762,7 +766,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-6 col-xl-4">
                                             <div class="card card_step">
                                                 <div class="card-img-container circle-color-4">
                                                     <img class="card-img-top" src="assets/img/schema-5.png" alt="">
@@ -776,7 +780,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-6 col-xl-4">
                                             <div class="card card_step">
                                                 <div class="card-img-container circle-color-5">
                                                     <img class="card-img-top" src="assets/img/schema-6.png" alt="">
@@ -790,7 +794,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-4 ml-auto">
+                                        <div class="col-md-6 col-xl-4 ml-auto">
                                             <div class="card card_step">
                                                 <div class="card-img-container circle-color-2">
                                                     <img class="card-img-top" src="assets/img/design-01.png" alt="">
@@ -804,7 +808,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-4 mr-auto">
+                                        <div class="col-md-6 col-xl-4 mr-auto">
                                             <div class="card card_step">
                                                 <div class="card-img-container circle-color-1">
                                                     <img class="card-img-top" src="assets/img/design-02.png" alt="">
@@ -835,7 +839,7 @@
                     <div class="col-12">
                         <span class="h2 section-h2-title section-twelfth__title">Вы задаете от 5 вопросов в день на <br> нашу почту, и 90% ответов на них здесь</span>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="accordion accordion-style" id="accordionExample">
                             <div class="card">
                                 <div class="card-header" id="headingOne">
@@ -892,18 +896,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <div class="accordion accordion-style" id="accordionExample2">
                             <div class="card">
                                 <div class="card-header" id="headingOne2">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
                                             Вы делаете спецпроекты на индивидуальный заказ?
                                         </button>
                                     </h5>
                                 </div>
 
-                                <div id="collapseOne2" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordionExample2">
+                                <div id="collapseOne2" class="collapse" aria-labelledby="headingOne2" data-parent="#accordionExample2">
                                     <div class="card-body">
                                         <p class="accordion-style__text">Все, что необходимо для быстрого и выгодного ремонта: </p>
                                         <ul class="accordion-style__list">
@@ -974,7 +978,7 @@
                     <div class="col-12">
                         <h2 class="h2 section-h2-title section-thirteenth__title">Практика сотрудничества с нами из первых уст</h2>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <div class="section-thirteenth__wrapper">
                             <div class="section-thirteenth__video">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/REpwjTodqA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -1009,7 +1013,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <div class="section-thirteenth__wrapper ">
                             <div class="section-thirteenth__video">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/REpwjTodqA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -1081,15 +1085,18 @@
         <div class="footer__main-container">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <div class="footer__wrapper">
                             <span class="footer__title">Десять минут вашего времени </span>
                             <p class="footer__text">И через час дизайн-проект мечты в вашем почтовом ящике</p>
                             <button class="btn main-btn">Получить проект </button>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <img class="footer__img" src="assets/img/footer-img.png" alt="">
+                    <div class="col-md-6">
+                        <div class="footer__img-wrapper">
+                            <img class="footer__img" src="assets/img/footer-img.png" alt="">
+                            <div class="footer__img-mob" style="background-image: url(assets/img/footer-img-mob.png)"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1098,23 +1105,25 @@
         <div class="footer__container">
             <div class="container">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-md-2">
                         <a class="footer__logo" href="#">
                             <div class="footer__logo-icon"></div>
                             <span>UPDESIGN</span>
                         </a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <div class="footer__container-wrapper">
                             <span class="footer__container-text">Возник вопрос</span>
-                            <a class="email-svg-icon ml-3" href="#"></a>
-                            <a class="call-svg-icon ml-3" href="#"></a>
-                            <a class="inst-svg-icon ml-3" href="#"></a>
+                            <div class="footer__container-list">
+                                <a class="email-svg-icon ml-3" href="#"></a>
+                                <a class="call-svg-icon ml-3" href="#"></a>
+                                <a class="inst-svg-icon ml-3" href="#"></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <div class="footer__container-wrapper">
-                            <span class="footer__container-text d-flex align-items-center">Разрабока и поддержка <a class="footer__container-text d-flex align-items-center ml-2" href="#">Webdelo <i class="logo-webdelo ml-3"></i></a></span>
+                            <span class="footer__container-text footer__text-webdelo">Разрабока и поддержка <a class="footer__container-text footer__text-webdelo flex-row ml-2" href="#">Webdelo <i class="logo-webdelo ml-3"></i></a></span>
                         </div>
                     </div>
                 </div>
@@ -1123,6 +1132,16 @@
     </footer>
 </div>
 
+
+<div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/REpwjTodqA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="assets/js/libs.min.js" type="module"></script>
 </body>

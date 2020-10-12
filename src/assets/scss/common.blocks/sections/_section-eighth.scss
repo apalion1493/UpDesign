@@ -6,3 +6,14 @@
 .section-eighth__title {
   margin-bottom: 63px;
 }
+
+@media (max-width: 767.98px) {
+  .section-eighth__title {
+    margin-bottom: 28px;
+  }
+
+  .section-eighth {
+    padding-top: 28px;
+    padding-bottom: 5px;
+  }
+}

@@ -119,3 +119,13 @@ main {
     max-width: 1210px;
   }
 }
+
+@media (max-width: 767.98px) {
+  .main-btn {
+    min-height: 45px;
+  }
+
+  .right-line:before {
+    display: none;
+  }
+}

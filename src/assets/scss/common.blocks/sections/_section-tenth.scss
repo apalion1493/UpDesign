@@ -14,3 +14,18 @@
   color: #6A6A6A;
   margin-bottom: 63px;
 }
+
+@media (max-width: 767.98px) {
+  .section-tenth {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .section-tenth__title {
+    margin-bottom: 23px;
+  }
+
+  .section-tenth__subTitle {
+    margin-bottom: 22px;
+  }
+}

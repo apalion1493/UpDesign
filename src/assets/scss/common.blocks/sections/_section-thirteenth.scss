@@ -80,3 +80,48 @@
     height: 366px;
   }
 }
+
+@media (max-width: 1199.98px) {
+  .section-thirteenth__listAudio-item {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 31px;
+  }
+
+  .section-thirteenth__listAudio-item-audio {
+    margin-left: 0;
+    margin-top: 12px;
+    width: 100%;
+  }
+
+  .section-thirteenth__listAudio {
+    padding-left: 15px;
+  }
+
+  .section-thirteenth__video {
+    margin-bottom: 33px;
+  }
+
+  .section-thirteenth__listAudio-item-author-img {
+    width: 31px;
+    height: 31px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-thirteenth__wrapper {
+    margin-bottom: 50px;
+  }
+
+  .section-thirteenth {
+    padding-bottom: 0;
+  }
+
+  .section-thirteenth__video {
+    height: 211px;
+
+    iframe {
+      height: 100%;
+    }
+  }
+}

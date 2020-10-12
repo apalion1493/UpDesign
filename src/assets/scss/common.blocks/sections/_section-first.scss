@@ -94,10 +94,21 @@
   .section-first__text {
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 30px;
   }
 
   .section-first__wrapper-circle span {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .section-first {
+    padding-bottom: 0;
+    padding-top: 30px;
+  }
+
+  .section-first__title {
+    font-size: 28px;
+    margin-bottom: 16px;
   }
 }

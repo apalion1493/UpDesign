@@ -42,3 +42,43 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (max-width: 1199.98px) {
+  .section-ninth__video img {
+    object-fit: cover;
+    object-position: left center;
+    height: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-ninth__wrapper {
+    padding-left: 0;
+    padding-top: 26px;
+  }
+
+  .section-ninth__btn {
+    margin-top: 20px;
+  }
+
+  .section-ninth__title {
+    br {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-ninth {
+    padding-top: 27px;
+    padding-bottom: 35px;
+  }
+
+  .section-ninth__btn {
+    height: 45px;
+  }
+
+  .section-ninth__title {
+    margin-bottom: 16px;
+  }
+}

@@ -59,6 +59,27 @@
 
 @media (max-width: 767.98px) {
   .card_step .card-title {
+    margin-bottom: 15px;
+  }
 
+  .card_step .card-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .card_step .card-img-container {
+    width: 222px;
+    height: 222px;
+    margin-bottom: 0;
+  }
+
+  .card_step .card-img-top {
+    width: 80%;
+  }
+
+  .card_step .card-body {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
