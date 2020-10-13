@@ -107,7 +107,7 @@
 
   .header__nav {
     position: fixed;
-    left: -800px;
+    left: 0;
     top: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.45);
@@ -117,11 +117,12 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    transition: left 0.3s;
+    transition: transform 0.3s;
+    transform: translateX(-800px);
 
     &.active {
-      left: 0;
-      transition: left 0.3s;
+      transform: translateX(0px);
+      transition: transform 0.3s;
     }
 
     .header__nav-list {
