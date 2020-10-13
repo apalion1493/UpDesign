@@ -1,0 +1,17 @@
+.main-btn {
+  border-radius: 55px;
+  background: linear-gradient(269.01deg, #D41F7E 5.21%, #DB332E 85.36%);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  min-height: 55px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inline-flex;
+
+  &:hover {
+    color: #ffffff;
+  }
+}

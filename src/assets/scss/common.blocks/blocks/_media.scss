@@ -23,6 +23,7 @@
   .media-body {
     p {
       margin-bottom: 0;
+      font-family: "Montserrat", sans-serif;
     }
   }
 }
@@ -135,9 +136,13 @@
 }
 
 @media (max-width: 767.98px) {
-  .media_v2 .media__title {
-    font-size: 16px;
-    line-height: 150.19%;
+  .media_v2 {
+    align-items: flex-start;
+
+    .media__title {
+      font-size: 16px;
+      line-height: 150.19%;
+    }
   }
 
   .media_v5 .media-body p {

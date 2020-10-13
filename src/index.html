@@ -20,7 +20,7 @@
         <div class="header__containerWrapper">
             <div class="container header__container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-2">
+                    <div class="col-lg-4 col header__block">
                         <div class="header__wrapper">
                             <a href="#" class="header__logo logo">
                                 <i class="logo__icon"></i>
@@ -28,15 +28,19 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col">
+                    <div class="col-lg-4 col header__block">
                         <div class="header__wrapper">
-                            <button class="btn btn-primary mx-auto header__btn">Пример проекта и цена</button>
+                            <button class="btn main-btn mx-auto header__btn">Пример проекта и цена</button>
                         </div>
                     </div>
-                    <div class="col-lg-4 col">
+                    <div class="col-lg-4 col header__block">
                         <div class="header__wrapper">
-                            <button class="header__burger"></button>
-                            <nav class="header__nav">
+                            <button class="header__burger" id="header__burger">
+                                <span class="header__burger-line"></span>
+                                <span class="header__burger-line"></span>
+                                <span class="header__burger-line"></span>
+                            </button>
+                            <nav id="header__nav" class="header__nav">
                                 <ul class="header__nav-list">
                                     <li class="header__nav-item">
                                         <a class="header__nav-link" href="#">
@@ -154,7 +158,7 @@
                                             <span class="media__title">Пройдите тест</span>
                                             <div class="section-second__item-block">
                                                 <p class="main-text">Ответьте на простые короткие вопросы и расскажите, о какой квартире вы мечтаете.</p>
-                                                <button class="btn main-btn section-second__btn">Пройти тест</button>
+                                                <a href="#" class="btn main-btn section-second__btn">Пройти тест</a>
                                             </div>
                                         </div>
                                     </div>
@@ -290,7 +294,7 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
-                                        <button class="btn main-btn carousel-caption__btn">Пройдите тест</button>
+                                        <a href="#" class="btn main-btn carousel-caption__btn">Пройдите тест</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
@@ -317,7 +321,7 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
-                                        <button class="btn main-btn carousel-caption__btn">Пройдите тест</button>
+                                        <a href="#" class="btn main-btn carousel-caption__btn">Пройдите тест</a>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
@@ -344,7 +348,7 @@
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </div>
-                                        <button class="btn main-btn carousel-caption__btn">Пройдите тест</button>
+                                        <a href="#" class="btn main-btn carousel-caption__btn">Пройдите тест</a>
                                     </div>
                                 </div>
                             </div>
@@ -385,38 +389,38 @@
                     </div>
                     <div class="col-xl-6 col-sm-6 col-6 col-md-12">
                         <div class="section-fifth__type" style="background-image: url(assets/img/section-fifth__elem-img-1.png)">
-                            <div class="section-fifth__type-circle ml-auto">
+                            <a href="#" class="section-fifth__type-circle ml-auto">
                                 <div class="section-fifth__type-circleCenter" style="border-color: #D5207E;">
                                     <span>Студия</span>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-sm-6 col-6 col-md-12">
                         <div class="section-fifth__type" style="background-image: url(assets/img/section-fifth__elem-img-3.png)">
-                            <div class="section-fifth__type-circle mr-auto">
+                            <a href="#" class="section-fifth__type-circle mr-auto">
                                 <div class="section-fifth__type-circleCenter" style="border-color: #D5207E;">
                                     <span>1 комната</span>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-sm-6 col-6 col-md-12">
                         <div class="section-fifth__type" style="background-image: url(assets/img/section-fifth__elem-img-2.png)">
-                            <div class="section-fifth__type-circle ml-auto">
+                            <a href="#" class="section-fifth__type-circle ml-auto">
                                 <div class="section-fifth__type-circleCenter" style="border-color: #F09720;">
                                     <span>2 комнаты</span>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-xl-6 col-sm-6 col-6 col-md-12">
                         <div class="section-fifth__type" style="background-image: url(assets/img/section-fifth__elem-img-4.png)">
-                            <div class="section-fifth__type-circle mr-auto">
+                            <a href="#" class="section-fifth__type-circle mr-auto">
                                 <div class="section-fifth__type-circleCenter" style="border-color: #00A1E3;">
                                     <span>Другое</span>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -430,7 +434,7 @@
                         <p class="section-sixth__text mb-4">Мы выполняем проекты быстро и по выгодной цене. Наши дизайнеры разработали уже более 1000+  интерьеров для квартир и домов самых разных площадей и планировок. У нас огромная база идей, готовых к использованию. Мы хотим сделать красивые интерьеры доступнее, поэтому заявляем самую привлекательную стоимость услуги дизайн онлайн.</p>
                         <span class="section-sixth__colorText mb-4">У вас студия/1 комнатная/2 комнатная квартира, но вы не нашли свою планировку?</span>
                         <p class="section-sixth__text mb-4 pb-3">Нажмите кнопку «нет моей планировки» пройдите опросник и мы разработаем проект с нуля в срок от 3 до 7 дней от 1990₽ за проект!</p>
-                        <button class="btn main-btn mx-auto">Нет моей планировки</button>
+                        <a href="#" class="btn main-btn mx-auto section-sixth__btn">Нет моей планировки</a>
                     </div>
                     <div class="col-lg-2"></div>
                 </div>
@@ -472,11 +476,11 @@
                                     <div class="section-seventh__form-block">
                                         <input class="input-style mb-3" type="text" placeholder="Ваше имя">
                                         <input class="input-style mb-3" type="text" placeholder="Номер телефона">
-                                        <button class="btn btn-outline-primary d-none d-md-flex">Подгрузить планировку</button>
+                                        <a href="#" class="btn btn-outline-primary d-none d-md-flex">Подгрузить планировку</a>
                                     </div>
                                     <div class="section-seventh__form-block">
                                         <textarea class="input-style textarea-style d-none d-md-block" name="" id="" cols="30" rows="4" placeholder="Комментарий"></textarea>
-                                        <button class="btn main-btn section-seventh__form-btn">Заказать проект</button>
+                                        <a href="#" class="btn main-btn section-seventh__form-btn">Заказать проект</a>
                                     </div>
                                 </form>
                             </div>
@@ -621,7 +625,7 @@
                             <p class="main-text mb-0">Наша команда работает в строительстве и дизайне с 2003 года. За прошедшее время мы отработали десятки планировок и создали проекты в 34 стилях, поэтому быстро решаем задачи клиентов любой сложности. Ежедневно делаем стильный дизайн доступным многим, благодаря выгодной стоимости. </p>
                             <br>
                             <p class="main-text">Гармонично сочетаем творческий подход и передовые технологии — создаем функциональные проекты с учетом личных пожеланий клиентов. </p>
-                            <button class="main-btn btn section-ninth__btn">Пройти тест</button>
+                            <a href="#" class="main-btn btn section-ninth__btn">Пройти тест</a>
                         </div>
                     </div>
                 </div>
@@ -827,7 +831,7 @@
                                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">2</div>
                                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">3</div>
                             </div>
-                            <button class="btn main-btn section-eleventh__btn">Получить консультацию</button>
+                            <a href="#" class="btn main-btn section-eleventh__btn">Получить консультацию</a>
                         </div>
                     </div>
                 </div>
@@ -1089,7 +1093,7 @@
                         <div class="footer__wrapper">
                             <span class="footer__title">Десять минут вашего времени </span>
                             <p class="footer__text">И через час дизайн-проект мечты в вашем почтовом ящике</p>
-                            <button class="btn main-btn">Получить проект </button>
+                            <a href="#" class="btn main-btn">Получить проект </a>
                         </div>
                     </div>
                     <div class="col-md-6">

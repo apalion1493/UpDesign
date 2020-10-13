@@ -2,6 +2,10 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+body.active {
+  overflow: hidden;
+}
+
 .app {
   min-height: 100vh;
   display: flex;
@@ -79,23 +83,6 @@ main {
   resize: none;
 }
 
-.main-btn {
-  border-radius: 55px;
-  background: linear-gradient(269.01deg, #D41F7E 5.21%, #DB332E 85.36%);
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #FFFFFF;
-  min-height: 55px;
-  padding-left: 30px;
-  padding-right: 30px;
-
-  &:hover {
-    color: #ffffff;
-  }
-}
-
 .main-outline-btn {
   border: 4px solid rgba(255, 255, 255, 0.76);
 }
@@ -127,5 +114,10 @@ main {
 
   .right-line:before {
     display: none;
+  }
+
+  .input-style {
+    height: 40px;
+    min-height: 40px;
   }
 }

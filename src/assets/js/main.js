@@ -26,3 +26,13 @@ $('.slider-container').slick({
         }
     ]
 });
+
+$('#header__burger').click(function () {
+    $('#header__nav').addClass('active')
+    $('body').addClass('active')
+})
+
+$('.header__nav-close').click(function () {
+    $('#header__nav').removeClass('active')
+    $('body').removeClass('active')
+})
