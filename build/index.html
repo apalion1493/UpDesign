@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
@@ -139,7 +140,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-second">
+        <section class="section section-second aos-init aos-animate" data-aos="fade-left">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -205,7 +206,10 @@
                                 <div class="position-relative section-second__imgContainer-wrapper2">
                                     <img class="ml-auto" src="assets/img/iPhoneX-img.png" alt="">
                                     <div class="section-second__imgContainer-content">
-                                        <img src="assets/img/iPhoneX-content.png" alt="">
+                                        <video id="video" muted="muted" poster="assets/img/preview.jpg">
+                                            <source src="assets/img/media/video.mov" type="video/mp4">
+                                            Тег video не поддерживается вашим браузером.
+                                        </video>
                                     </div>
                                 </div>
                             </div>
@@ -996,10 +1000,10 @@
                                             <time>27 мая 2020</time>
                                         </div>
                                     </div>
-                                    <audio class="section-thirteenth__listAudio-item-audio" controls>
-                                        <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">
-                                        <source src="audio/music.mp3" type="audio/mpeg">
-                                    </audio>
+<!--                                    <audio class="section-thirteenth__listAudio-item-audio" controls>-->
+<!--&lt;!&ndash;                                        <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <source src="audio/music.mp3" type="audio/mpeg">&ndash;&gt;-->
+<!--                                    </audio>-->
                                 </li>
                                 <li class="section-thirteenth__listAudio-item">
                                     <div class="section-thirteenth__listAudio-item-author">
@@ -1009,10 +1013,10 @@
                                             <time>27 мая 2020</time>
                                         </div>
                                     </div>
-                                    <audio class="section-thirteenth__listAudio-item-audio" controls>
-                                        <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">
-                                        <source src="audio/music.mp3" type="audio/mpeg">
-                                    </audio>
+<!--                                    <audio class="section-thirteenth__listAudio-item-audio" controls>-->
+<!--&lt;!&ndash;                                        <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <source src="audio/music.mp3" type="audio/mpeg">&ndash;&gt;-->
+<!--                                    </audio>-->
                                 </li>
                             </ul>
                         </div>
@@ -1141,7 +1145,10 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
-                <iframe class="w-100" width="560" height="315" src="https://www.youtube.com/embed/REpwjTodqA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <video class="w-100" controls="controls" poster="assets/img/preview.jpg">
+                    <source src="assets/img/media/video.mov" type="video/mp4">
+                    Тег video не поддерживается вашим браузером.
+                </video>
             </div>
         </div>
     </div>

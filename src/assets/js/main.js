@@ -1,6 +1,24 @@
 import './config/jqueryLoad';
 import 'bootstrap/dist/js/bootstrap.min';
 import 'slick-carousel/slick/slick.min';
+import AOS from 'aos/dist/aos';
+
+AOS.init({
+    offset: 120,
+    delay: 200,
+    duration: 600,
+    easing: 'ease',
+    once: false,
+    mirror: false,
+    anchorPlacement: 'top-bottom',
+});
+
+$(document).scroll(function () {
+    if($('.section-second').hasClass('aos-animate')) {
+        $('#video').get(0).play()
+    }
+})
+
 
 $('.slider-container').slick({
     infinite: true,
