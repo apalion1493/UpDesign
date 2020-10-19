@@ -54,3 +54,12 @@ $('.header__nav-close').click(function () {
     $('#header__nav').removeClass('active')
     $('body').removeClass('active')
 })
+
+$(document).ready(function(){
+    $(".anchor-link").on("click", function (event) {
+        event.preventDefault();
+        let id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});

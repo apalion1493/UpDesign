@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-lg-4 col header__block">
                         <div class="header__wrapper">
-                            <button class="btn main-btn mx-auto header__btn">Пример проекта и цена</button>
+                            <a href="#section-seventh" class="btn main-btn mx-auto header__btn anchor-link">Пример проекта и цена</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col header__block">
@@ -130,11 +130,11 @@
                     <div class="col-lg-6 order-0 order-lg-1">
                         <div class="section-first__wrapper">
                             <img src="assets/img/pizza-img-group.png" alt="">
-                            <div class="section-first__wrapper-circle">
+                            <a href="#" class="section-first__wrapper-circle">
                                 <div class="section-first__wrapper-circle-container">
                                     <span>Получить <br> дизайн-проект</span>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -444,7 +444,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-seventh">
+        <section id="section-seventh" class="section section-seventh">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -835,7 +835,7 @@
                                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">2</div>
                                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">3</div>
                             </div>
-                            <a href="#" class="btn main-btn section-eleventh__btn">Получить консультацию</a>
+                            <a href="#" class="btn main-btn section-eleventh__btn"  data-toggle="modal" data-target="#modalConsultation">Получить консультацию</a>
                         </div>
                     </div>
                 </div>
@@ -980,7 +980,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section-thirteenth">
+        <section class="section section-thirteenth d-none">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -1097,7 +1097,7 @@
                         <div class="footer__wrapper">
                             <span class="footer__title">Десять минут вашего времени </span>
                             <p class="footer__text">И через час дизайн-проект мечты в вашем почтовом ящике</p>
-                            <a href="#" class="btn main-btn">Получить проект </a>
+                            <a href="#" class="btn main-btn" data-toggle="modal" data-target="#modalConsultation">Получить проект </a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -1141,7 +1141,7 @@
 </div>
 
 
-<div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade main-modal" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
@@ -1149,6 +1149,36 @@
                     <source src="assets/img/media/video.mov" type="video/mp4">
                     Тег video не поддерживается вашим браузером.
                 </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade main-modal" id="modalConsultation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+                <div class="d-flex flex-column modal-container">
+                    <span class="modal-container__title">Получить консультацию</span>
+                    <p class="modal-container__subTitle">Отправьте свои данные и наш менеджер свяжется с вами в течении 5ти минут</p>
+                    <form class="modal-container__formContainer" action="">
+                        <div class="form-group">
+                            <input type="text" placeholder="Имя" class="form-control input-style">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" class="form-control input-style">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Телефон" class="form-control input-style">
+                        </div>
+                        <button class="btn main-btn modal-container__button" type="submit">Отправить</button>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">Даю согласие на обработку персональных данных</label>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

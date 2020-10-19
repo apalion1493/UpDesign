@@ -71,6 +71,7 @@ main {
   font-family: "Roboto", sans-serif;
 
   &:focus {
+    background: #E7E6E6;
     outline: none;
     border: none;
     box-shadow: none;
@@ -99,6 +100,10 @@ main {
     top: 10px;
     left: -15px;
   }
+}
+
+.custom-control-label::before {
+  border: 1px solid #000000;
 }
 
 @media (min-width: 1200px) {

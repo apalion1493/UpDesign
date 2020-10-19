@@ -60,6 +60,10 @@
   align-items: center;
   justify-content: center;
 
+  &:hover {
+    text-decoration: none;
+  }
+
   span {
     font-weight: bold;
     font-size: rem(24);
